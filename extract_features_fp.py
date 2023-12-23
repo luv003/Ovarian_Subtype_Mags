@@ -1,3 +1,4 @@
+from __future__ import print_function, division
 import torch
 import torch.nn as nn
 import os
@@ -24,7 +25,6 @@ device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 print("torch device:", device, "\n")
 
 
-from __future__ import print_function, division
 import os
 import torch
 import numpy as np
